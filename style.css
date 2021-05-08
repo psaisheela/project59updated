@@ -1,0 +1,77 @@
+
+body{
+background-image: linear-gradient(to bottom, #FF8008,#FFC837);
+    background-repeat: no-repeat;
+    background-position:center;
+    text-align: center;
+}
+#introduction{
+padding: 70px;}
+.name{
+   font-family: 'Dancing Script', cursive;
+    font-weight: 200;
+}
+#hobby{
+    background-image: linear-gradient(to bottom right, #DD5E89,#F7BB97);
+    padding: 10px;
+    margin: 10px;
+}
+.profile{
+    border-radius: 50px;
+    border-width: 0px;
+    border-style: none;
+    width: 100px;
+    height: 100px;
+}
+.menu{
+    list-style: none;
+    float: right;
+    
+}
+.links{
+    display:inline;
+    padding: 10px 10px 10px 10px;
+cursor: pointer;
+    margin: 0px 5px 0px 5px;
+    font-size: 20px;
+    color:darkslateblue;
+
+}
+.links a{
+    color: darkslateblue;
+    text-decoration: none;
+}
+.links:hover{
+    
+    background-image: linear-gradient(to top right, #314755,#26a0da);
+    color: cornsilk;
+}
+.links:hover a{
+    color: cornsilk;
+}
+.line{
+    background-color: black;
+    width: 70px;
+    height: 6px;
+    margin: 8px auto;
+}
+
+#favoriteBook a{
+    font-size: 30px;
+    text-decoration: none;
+    color: crimson;
+}
+#hobbyBtn{
+    background-color: darkmagenta;
+    margin: 20px;
+    padding: 20px;
+    
+}
+#myWork a{
+    color: beige;
+    font-size: 20px;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
